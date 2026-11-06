@@ -203,3 +203,43 @@ footer {
         flex-direction: column;
     }
 }
+
+
+/* TARJETAS DE EQUIPOS */
+
+.equipo {
+    text-align: center;
+    min-width: 0;
+}
+
+.escudo {
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.escudo img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}
+
+/* Ajustar el tamaño visual del escudo del Real Madrid */
+.equipo:first-child .escudo img {
+    transform: scale(1.3);
+}
+
+.equipo h3 {
+    margin-bottom: 12px;
+}
+
+.estadio {
+    color: #35d07f;
+    font-size: 14px;
+    margin-top: 15px;
+}
